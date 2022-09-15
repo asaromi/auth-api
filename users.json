@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "63225d3c88e0be7944d06146"
+  },
+  "name": "Si User#1",
+  "email": "user.1@mail.com",
+  "password": "$2b$10$r5o6GP50ejAtEZc1iQEx8eeh/Jt8aavntgZaC5s37NUPx8/Zo.dXy",
+  "phoneNumber": "083xxxxxx334",
+  "role": "user",
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIuMUBtYWlsLmNvbSIsImlhdCI6MTY2MzE5NjQ3NiwiZXhwIjoxNjY1Nzg4NDc2fQ.dyRj3Kcl3VLwIKHOIrfKviIHuOPVYE6Iy6TRYhRl0j0",
+  "createdAt": {
+    "$date": "2022-09-14T23:01:16.454Z"
+  },
+  "updatedAt": {
+    "$date": "2022-09-14T23:01:16.454Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6322a5236e6bf5352c8bac7d"
+  },
+  "name": "Si Admin",
+  "email": "admin.user@mail.com",
+  "password": "$2b$10$2P4ooptZrsGL2uQ.HjvVkeoybueQkWAuLi0yFiyMyVntMhqbnHAgC",
+  "phoneNumber": "083xxxxx4334",
+  "role": "admin",
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluLnVzZXJAbWFpbC5jb20iLCJpYXQiOjE2NjMyMTQ4ODMsImV4cCI6MTY2NTgwNjg4M30.QaVfrtHOrj1Eaw5PzrKjD5PJfHLQXPXyxIye-GOTT44",
+  "createdAt": {
+    "$date": "2022-09-15T04:08:03.770Z"
+  },
+  "updatedAt": {
+    "$date": "2022-09-15T04:08:03.770Z"
+  },
+  "__v": 0
+}]
