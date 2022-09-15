@@ -1,6 +1,0 @@
-module.exports = {
-	host: "docker.host",
-	port: 80,
-	mongodbUrl: "mongodb://user:password@localhost:27017/authApi",
-	jwtSecret: "SECRET-FOR-AUTHENTICATION-API-WITH-JWT"
-}

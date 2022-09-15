@@ -1,11 +1,11 @@
+require("dotenv").config()
 const {
   verify,
   sign,
   decode: decodeToken,
-  TokenExpiredError,
 } = require("jsonwebtoken")
 const { compareSync, hashSync, genSaltSync } = require("bcrypt")
-const { jwtSecret } = require("../config")
+const { jwtSecret } = process.env
 const { User } = require("./model")
 const { catchError, successResponse, errorResponse } = require("./helpers")
 const { USER_ROLE } = require("./constant")

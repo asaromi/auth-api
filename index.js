@@ -1,9 +1,10 @@
+require("dotenv").config()
 const express = require("express")
 const bodyParser = require("body-parser")
 const app = express()
 const cors = require("cors")
 const mongoose = require("mongoose")
-const { mongodbUrl, host, port } = require("./config")
+const { mongodbUrl, host, port } = process.env
 const routes = require("./src/routes")
 
 mongoose
